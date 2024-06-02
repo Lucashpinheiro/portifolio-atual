@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --third-color: #ff0000;
+    --fourth-color: #31363F;
+    --primary-font: "Sedan SC", serif;
+}
+
+.navbar {
+    background-color: var(--secondary-color);
+    align-items: center;
+}
+
+.navbar h1,
+.navbar p {
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.navbar h1 {
+    font-family: var(--primary-font);
+}
+
+.navbar p {
+    color: var(--third-color);
+    font-weight: bold;
+}
+
+.navbar h1 {
+    margin-bottom: 0px;
+}
+
+.nav .nav-link {
+    color: var(--primary-color);
+}
+
+.nav .nav-link.active{
+    color: var(--third-color);
+}
+
+.text-carousel {
+    margin-bottom: 0;
+}
+
+.about,
+.project {
+    background-color: var(--fourth-color);
+    height: 100vh;
+}
+
+.frase,
+.text-frase,
+h3 {
+    color: var(--primary-color);
+}
+
+.hire {
+    background-color: var(--third-color);
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.projects-title {
+    border-bottom: 1.5px solid grey;
+}
+
+#contact {
+    background-color: var(--secondary-color);
+    height: 100%;
+}
