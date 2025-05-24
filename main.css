@@ -52,7 +52,6 @@
 .about,
 .project {
     background-color: var(--fourth-color);
-    height: 100vh;
 }
 
 .frase,
@@ -74,4 +73,25 @@ h3 {
 #contact {
     background-color: var(--secondary-color);
     height: 100%;
+}
+
+.project {
+    padding-top: 160px;
+}
+
+.row {
+    padding-bottom: 32px;
+}
+
+img {
+    height: 200px;
+    margin: 0 8px;
+}
+
+.card {
+    height: 450px;
+}
+
+.card-text {
+    padding-bottom: 8px;
 }
